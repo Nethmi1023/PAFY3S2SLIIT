@@ -1,0 +1,36 @@
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+
+# Node / frontend
+node_modules/
+frontend/node_modules/
+frontend/build/
+frontend/.env.local
+frontend/.env.development.local
+frontend/.env.test.local
+frontend/.env.production.local
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Java / Maven backend
+backend/target/
+backend/.mvn/wrapper/maven-wrapper.jar
+backend/package-lock.json
+*.class
+*.log
+*.mv.db
+*.trace.db
+
+# IntelliJ / Eclipse metadata
+.idea/
+*.iml
+.project
+.classpath
+.settings/
+
+# Optional local runtime data
+*.pid
